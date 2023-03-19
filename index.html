@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resource Portfolio</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/791px-CSS3_and_HTML5_logos_and_wordmarks.svg.png?20150111171555">
+<style>
+/* PAGE STRUCTURE */
+body {
+  background-color: #f0f1f1;
+  color: #210802;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 100%;
+  margin: 0;}
+table {
+  width: auto;
+  text-align: left;}
+th, td {
+  padding: 7px 7px 7px 7px;}
+th {
+  border-bottom: 2px solid #1111;
+  border-top: 1px solid rgb(4, 11, 93)}
+tr.even{
+  background-color:#dce0e4;}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }  
+Footer {
+  text-align: center;
+  background-color:rgb(55, 122, 145);
+  color: #f4f4f4;
+  max-width: auto;}  
+  .footer {
+  color:#f4f4f4}
+  .nav ul li {
+    display: inline-block;}
+#even {
+  display: block;
+  margin-left: 0px;
+  margin-right: 200px }
+/* Headings */
+.H1 { 
+    font-size: 36px;
+    font-weight: bold;}
+.H2 { 
+    font-size: 24px;
+    font-weight: bold;}
+.H3 {
+    font-size: 21px;
+    font-weight: bold;}  
+h3 {
+    font-style: italic;
+    text-align: center;
+    color: #1d0f0f; 
+    transition: transform .7s ease-in-out;}
+  h3:hover {
+    color: #370404;   
+    text-decoration: overline;
+    transform: rotate(180deg);}
+  H2 {
+  text-decoration: underline;}
+      H2:hover {
+      text-transform: uppercase;}
+  /* TEXT DECORATIONS */
+  hr {
+    color:#dce0e4;}  
+  a:hover {
+    font-size: 120%;}  
+
+  hr {
+    color:#dce0e4;}  
+  a:hover {
+    font-size: 120%;}  
+  .att {
+    font-size: xx-small;
+    font-style: italic;}  
+  img {
+  transition: transform .7s ease-in-out;}
+    img:hover {
+    transform: rotate(180deg)}
+/* FONTS AND COLORS */
+.cool-blue {
+    color: #2d5dcc; }
+.pink {
+    color: #d957d9; }
+.purple {
+    color: #9648ab; }
+.red  {
+    color:#da072c; }
+.candy {
+    color:#ff0800; }
+.gold {
+    color: #FFD700;}
+.yellow {
+    color: #FFFF00 }
+.salmon {
+    color: 	#FA8072}
+.lime {
+    color: #00FF00 }
+.springGreen {
+    color: #00FF7F}
+.green {
+    color: #008000}
+.olive {
+    color: #808000}
+.teal {
+    color: #008080}
+.turquoise {
+    color: #40E0D0}
+.blue {
+    color:#0000FF }
+.maroon {
+    color: #800000}
+.indigo {
+    color: #4B0082}
+.khaki {
+    color: #F0E68C }
+.gray {
+    color: #808080 }
+.darkSlate {
+    color: #2F4F4F }
+.black {
+    color: #000000}
+.serif {
+  font-family: serif; }
+.sanSerif {
+    font-family: sans-serif; }
+.mono {
+    font-family:monospace;}
+.fantasy {
+    font-family: fantasy;}
+.cursive {
+    font-family:cursive;}
+.guide {
+    text-decoration: line-through;}
+      .guide:hover {
+      text-decoration: none; }
+/* BUTTON */
+Button {
+	box-shadow: 5px #346d80;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ab6d6d;
+	border-radius:10px;
+	color:#03191f;
+    padding:5px 15px;}
+  Button:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;}   
+/* CSS FOR SCRIPT */ 
+.nav-header {
+  background-color:rgb(55, 122, 145);
+  text-align: center;
+  position: sticky;
+  max-width: auto;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: background-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;}
+.nav-header.nav-header-scrolled {
+  background-color: #f0f1f1;
+  color:black;}
+  .nav-header-scrolled:hover {
+    color:rgb(157, 157, 17);} 
+.nav {
+  align-items: center;
+  height: 65px;
+  width: auto;
+  padding: 10px 20px;}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  color: white;}
+.nav-item {
+  display: inline-block;
+  margin-right: 30px;}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;}
+.nav-header.nav-header-scrolled .nav-item a {
+  color: black; }
+.nav-header.nav-header-scrolled .nav-item a:hover {
+    color:rgb(55, 122, 145);
+  text-decoration: underline;} 
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;}
+.content {
+  position: relative;
+  background-color:rgb(55, 122, 145);
+  color: white;
+  width: auto;}
+  </style>       
+    </head>
+<body>
+  <br>
+  <p class="guide">Developer Resources</p>
+    <div class="image">
+        <a title="FAIRsharing.org, CC BY 4.0 &lt;https://creativecommons.org/licenses/by/4.0&gt;, via Wikimedia Commons" href="https://teflonjosh.github.io/Quick-Resources/"><img width="256" alt="Developers" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Developers_%26_curators_of_resources_and_tools.png"></a>
+      </div> 
+<div class="att">
+      <a href="https://commons.wikimedia.org/wiki/File:Developers_%26_curators_of_resources_and_tools.png">FAIRsharing.org</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons
+  </div>
+<br>    
+  <button onclick="myFunction()">What is this?</button>
+<br>
+<br>
+  <p class="guide">Style Guide</p>
+    <div class="image">
+          <a title="Pearson Scott Foresman, Public domain, via Wikimedia Commons" href="https://teflonjosh.github.io/Style-Guide/"><img width="256" alt="Style (PSF)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Style_%28PSF%29.png/256px-Style_%28PSF%29.png"></a>
+      </div> 
+<div class="att">
+      <a href="https://commons.wikimedia.org/wiki/File:Style_(PSF).png">Pearson Scott Foresman</a>, Public domain, via Wikimedia Commons</div>
+  </div>
+<br>
+  <button onclick="myFunctionTwo()">What is this?</button>
+<br>
+<br>
+  <div class="nav">
+      <ul id="linksnav">
+          <li> Images from <a href="https://commons.wikimedia.org/wiki/Main_Page "target="_blank">Wikimedia Commons </a> and sourced in page | </li>
+          <li><a href="https://teflonjosh.github.io/SpaceInvaders/"target="_blank"> Bored?</a> | </li>
+          <li><a href="mailto:josh.michael.hill@gmail.com"> Contact Me!</a></li>
+      </ul>
+  </div>		
+<div class="att">
+  *Tab Icon from <a href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg"target="_blank">daPhyre</a>, <a href="https://creativecommons.org/licenses/by/3.0"target="_blank">CC BY 3.0</a>, via Wikimedia Commons 
+</div>
+  <script>
+      function myFunction() {
+        alert("A quick resource guide for basic HTML and CSS page building");
+      }
+      function myFunctionTwo() {
+        alert("Style guide for Web Developmet with colors and fonts that can be referenced");
+      }
+    </script>
+  </body>
+</html>
